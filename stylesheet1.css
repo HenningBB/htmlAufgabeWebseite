@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+img{
+    border: 1px solid teal;
+}
+
+.main{
+    border: 2px solid violet;
+    margin: 2% 5% 5% 5%;
+    padding: 15px;
+    display: grid;
+    clear: both;
+    grid-template-columns: min-content auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: left;
+    padding-left: 10px;
+}
