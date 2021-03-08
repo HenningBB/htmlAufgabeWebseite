@@ -1,0 +1,2 @@
+Font (Webfont):
+https://fonts.googleapis.com/css?family=Lacquer|Quicksand|Barriecito|Chewy&display=swap
