@@ -33,21 +33,30 @@ a{
     text-decoration: none;
     color: white;
 }
-header{
+.header{
     font-family: Chewy;
-    position: sticky;
-    top: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 35px;
     background-color: #f070a1;
-    grid-column: span 3;
     display: grid;
     grid-template-columns: 15% 70% 15%;
     color: white;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .headi{
     color: #c34271;
 }
 
-body{
+#headi{
+    display: inline-block;
+    width: 30%;
+}
+
+.body{
+    margin-top: 35px;
     background-image: url("AufgabeWebseite/Aufgabe 3/Material/Bild4.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -67,4 +76,5 @@ p{
 }
 img{
     border: 5px dashed white;
+    width: 200px;
 }
