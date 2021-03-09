@@ -73,6 +73,7 @@ a{
 }
 p{
     background-color: #f070a1;
+    border-radius: 15px;
 }
 img{
     border: 5px dashed white;
