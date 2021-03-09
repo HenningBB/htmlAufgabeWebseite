@@ -20,7 +20,6 @@ img{
     margin-top: 12px;
     margin-left: 30px;
     margin-right: 27px;
-    padding-top: 19px;
     padding-left: 9px;
     padding-right: 13px;
     padding-bottom: 19px;
@@ -29,10 +28,15 @@ img{
     grid-template-columns: min-content auto;
 }
 .left{
+    padding-top: 19px;
     float: left;
 }
 .right{
     float: left;
     padding-left: 7px;
+    padding-top: 6px;
     font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin-top: 33px;
 }
